@@ -1,0 +1,68 @@
+body{
+   background-image: url(../img/starBackground.png);
+}
+#nav{
+    background: #f4c87a; 
+}
+header h3{
+    text-align: center;
+    color: #DDD2AA;
+}
+.stars{
+    color: #0b172d;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+.star::before{
+    content: '\2606';
+    cursor: pointer;
+}
+.star.rated::before{
+    content: '\2605';
+}
+.camera a.link{
+    font-size: 2rem;
+    margin: 0.5rem 4.8rem 0.5rem 0;
+}
+form{
+    margin-top: 8%;
+    border: 1px solid black;
+    background: #f4c87a;
+    padding-left: 14px;
+}
+input{
+     color: #f4c87a !important; 
+    background-color: #0b172d;
+}
+input::placeholder{
+    color: #494646;
+    text-align: center;
+}
+fieldset{
+    border: 0;
+    text-align: center;
+}
+.overlay{
+	display: none;
+    color: #f4c87a;
+    padding-top: 40%;
+    padding-right: 5%;
+    text-align: center;
+}
+.list-item, .card{
+    background: #f4c87a;
+    color: #0b172d;
+    border: 2px solid #0b172d;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+legend, a.link, #right{
+    color: #0b172d;
+}
+#permanent{
+	display: none;
+}
+#thumbUp, #thumbDown{
+	 color: #f4c87a !important; 
+	font-size: 2.5rem;
+}
