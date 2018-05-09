@@ -71,6 +71,7 @@ var app = {
     successful: (imgURI) => {
        let image = document.getElementById('photo').src = imgURI,
 	   photoLibrary = "Save Image to Photo Library?";
+	   document.getElementById('photo').style.display = "block";
 	   app.uri = imgURI;
 	   app.saveInPhotoLibrary = true;
        app.photoTaken = true;
